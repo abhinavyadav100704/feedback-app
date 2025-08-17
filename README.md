@@ -64,8 +64,8 @@ spring.jpa.hibernate.ddl-auto=update
 
 4.http://localhost:8080
 
-▶️ API Endpoints
-🔹 Authentication & Users (UserController)
+▶️ API Endpoints : 
+🔹 Authentication & Users (UserController) : 
 Register User
 POST /api/auth/register
 Request body:
@@ -85,7 +85,7 @@ Get All Users (Admin only)
 GET /api/users
 Requires valid JWT token and ROLE_ADMIN.
 
-🔹 Feedback (FeedbackController)
+🔹 Feedback (FeedbackController) : 
 Create Feedback
 POST /api/feedback
 {
@@ -98,14 +98,14 @@ GET /api/feedback
 Get Feedback by ID
 GET /api/feedback/{id}
 
-🧪 Testing
+🧪 Testing :  
 Tested all endpoints using Postman.
 
 Verified authentication flow: register → login → receive JWT → access protected routes.
 
 Used H2 in-memory DB for unit tests and MySQL for persistent storage.
 
-📌 Project Status
+📌 Project Status : 
 This is a personal project to practice backend development with Spring Boot.
 Future improvements may include:
 
@@ -113,5 +113,5 @@ Adding a frontend client (React/Angular)
 Pagination and filtering for feedbacks
 Admin dashboard
 
-🤝 Contributing
+🤝 Contribution : 
 This is a personal project, so contributions are not open at the moment.
